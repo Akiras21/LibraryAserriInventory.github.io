@@ -1,0 +1,184 @@
+body { 
+  font-family: sans-serif; 
+  margin: 0; 
+  padding: 0; 
+    
+} 
+#background{
+  position: relative;
+  overflow: hidden;
+  height: 50%;
+  width: 100%;
+}
+    
+header { 
+ text-align: center; 
+ padding: 1rem; 
+ font-family: sans-serif;
+} 
+    
+main { 
+ max-width: 800px; 
+ margin: 0 auto; 
+ padding: 1rem; 
+} 
+    
+#books{ 
+  display: flex;
+ margin-bottom: 1rem; 
+
+} 
+
+#books h3 { 
+ margin-top: 0; 
+ margin-bottom: 0.5rem; 
+} 
+
+form {   
+  display: flex; 
+  flex-direction: column; 
+  max-width:300px; 
+  margin: 0 auto; 
+  font-family: sans-serif;
+} 
+
+label { 
+
+ margin-bottom: 0.3rem; 
+
+} 
+
+input, button { 
+
+ padding: 0.5rem; 
+
+ margin-bottom: 1rem; 
+
+} 
+
+button { 
+
+ background-color:rgb(204, 166, 116) ; 
+
+ color: #fff; 
+
+ border: none; 
+
+ cursor: pointer; 
+
+} 
+button:hover { 
+  background-color:rgb(165, 134, 92) ;
+
+} 
+.book-item { 
+
+ background-color: #f4f4f4; 
+
+ padding: 1rem; 
+
+ margin-bottom: 1rem; 
+
+ border-radius: 5px; 
+
+} 
+.book-item p { 
+
+ margin: 0; 
+
+} 
+.book-item button { 
+
+  background-color:rgb(204, 166, 116) ;
+} 
+
+.book-item button:hover { 
+  background-color:rgb(204, 166, 116) ;
+} 
+
+/* ... Código CSS anterior ... */ 
+
+#add-book, #edit-book { 
+ max-width: 300px; 
+ margin: 0 auto; 
+} 
+
+#edit-book { 
+ display: none; 
+} 
+    
+/* uno.css */ 
+    
+#gif{
+ display: flex;
+ float: right;
+}
+ 
+#add-book, #edit-book { 
+  max-width: 300px; 
+  margin: 0 auto; 
+} 
+ 
+#edit-book { 
+ display: none; 
+}  
+
+
+#formulario{
+ display: flex;
+ font-family: 'Times New Roman', Times, serif;
+ justify-content: flex-start;
+ margin-left: -90ch;
+}
+/*slider*/
+.slider-container {
+    width: 80%;
+    overflow: hidden;
+    margin-left: 40ch;
+    margin-top: -170%;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.control-btn {
+    font-size: 24px;
+    background-color:rgb(204, 166, 116) ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#botones{
+  margin-left: 50ch;
+  display: flex;
+  background-color: #2980b9;
+  justify-content: space-between;
+  align-items: center;
+}
+#text{
+  text-align: center;
+
+}
+#stock{
+  margin-left: 20%;
+  align-content: center;
+  background-color: #c9a372;
+}
+.stockdiv{
+  display: flex;
+  align-items: center;
+}
